@@ -1,0 +1,580 @@
+{
+  "user": {
+    "name": "eugenio"
+  },
+  "settingsoldParameters": {
+    "userName2": "Segafredo",
+    "Tin_max": "23",
+    "Tin_min": "45",
+    "Tewh_max": "28",
+    "Tewh_min": "18",
+    "Cess_thresh_low": "0.2",
+    "Cess_thresh_high": "0.8",
+    "Cpev_thresh_low": "0.2",
+    "Cpev_thresh_high": "0.8",
+    "time_arrival": ""
+  },
+  "oldParameters": {
+    "userName2": "Segafredo",
+    "Tin_max": "23",
+    "Tin_min": "45",
+    "Tewh_max": "28",
+    "Tewh_min": "18",
+    "Cess_thresh_low": "0.2",
+    "Cess_thresh_high": "0.8",
+    "Cpev_thresh_low": "0.2",
+    "Cpev_thresh_high": "0.8",
+    "time_arrival": ""
+  },
+  "home": {
+    "listDevices": [
+      {
+        "name": "Electric vehicle",
+        "imgSrc": "electricVehicle",
+        "state": "Recharge",
+        "starting_time": "3am",
+        "ending_time": "5am"
+      },
+      {
+        "name": "Washing machine",
+        "imgSrc": "washingMachine",
+        "state": "Turn off",
+        "starting_time": "3am",
+        "ending_time": "5am"
+      },
+      {
+        "name": "Air Coinditionator",
+        "imgSrc": "airConditioner",
+        "state": "Turn on",
+        "starting_time": "3am",
+        "ending_time": "5am"
+      }
+    ],
+    "single_values": {
+      "ESS_bateery": "50%",
+      "EV_battery": "40%",
+      "consumption": "2.5kW"
+    }
+  },
+  "communityplots": {
+    "labelsWeek": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "dataWeek": [
+      300,
+      456,
+      324,
+      540,
+      420,
+      348,
+      396
+    ],
+    "labelsHour": [
+      "8:00am",
+      "10:00am",
+      "12:00pm",
+      "14:00pm",
+      "16:00pm",
+      "18:00pm",
+      "20:00pm"
+    ],
+    "dataHour": [
+      10,
+      20,
+      30,
+      40,
+      60,
+      70,
+      80
+    ]
+  },
+  "summary2": {
+    "labels": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "data": [
+      9.4,
+      9.5,
+      9,
+      9.4,
+      9.6,
+      10.5,
+      11.5
+    ]
+  },
+  "summary3": {
+    "labelsWeek": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "dataWeek": [
+      9.4,
+      9.5,
+      9,
+      9.4,
+      9.6,
+      10.5,
+      11.5
+    ],
+    "labelsHour": [
+      "8:00am",
+      "10:00am",
+      "12:00pm",
+      "14:00pm",
+      "16:00pm",
+      "18:00pm",
+      "20:00pm"
+    ],
+    "dataHour": [
+      0.6,
+      0.35,
+      0.35,
+      0.44,
+      0.42,
+      0.55,
+      0.6
+    ],
+    "labelsMonth": [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Apr",
+      "May",
+      "June",
+      "July",
+      "Aug",
+      "Oct",
+      "Nov",
+      "Dec"
+    ],
+    "dataMonth": [
+      220,
+      230,
+      235,
+      238,
+      236,
+      250,
+      265,
+      200,
+      240,
+      238,
+      240,
+      230
+    ],
+    "labelsYear": [
+      "2018",
+      "2019",
+      "2020",
+      "2021"
+    ],
+    "dataYear": [
+      2600,
+      2800,
+      3200,
+      2900
+    ]
+  },
+  "scheduling": [
+    {
+      "id": 1,
+      "name": "Electric vehicle",
+      "imgSrc": "electricVehicle",
+      "state": "Recharge",
+      "starting_time": "3:00",
+      "ending_time": "5:00",
+      "consumption": "2000W",
+      "labels": [
+        "1:00am",
+        "2:00am",
+        "3:00am",
+        "4:00am",
+        "5:00am",
+        "6:00am",
+        "7:00am"
+      ],
+      "data": [
+        0,
+        0,
+        2000,
+        2000,
+        2000,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Washing machine",
+      "imgSrc": "washingMachine",
+      "state": "Turn on",
+      "starting_time": "19:00",
+      "ending_time": "20:00",
+      "consumption": "500W",
+      "labels": [
+        "16:00",
+        "17:00",
+        "18:00",
+        "19:00",
+        "20:00",
+        "21:00",
+        "22:00",
+        "25:00"
+      ],
+      "data": [
+        0,
+        0,
+        0,
+        500,
+        500,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Dishwasher",
+      "imgSrc": "dishWasher",
+      "state": "Turn on",
+      "starting_time": "20:30",
+      "ending_time": "21:00",
+      "consumption": "1200W",
+      "labels": [
+        "18:00",
+        "18:30",
+        "19:00",
+        "19:30",
+        "20:00",
+        "20:30",
+        "21:00",
+        "21:30"
+      ],
+      "data": [
+        0,
+        0,
+        0,
+        1200,
+        1200,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "newSchedules": [
+    {
+      "selected": "Hair dryer",
+      "newTime2": "04:53",
+      "id": 1
+    },
+    {
+      "selected": "Humidifier",
+      "newTime2": "04:53",
+      "id": 2
+    },
+    {
+      "selected": "",
+      "newTime2": "",
+      "id": 3
+    },
+    {
+      "selected": "",
+      "newTime2": "",
+      "id": 4
+    },
+    {
+      "selected": "Hair dryer",
+      "newTime2": "20:53",
+      "id": 5
+    }
+  ],
+  "settings2": [
+    {
+      "id": 2,
+      "name": "Washing machine",
+      "power_cons": "1500W",
+      "imgSrc": "washingMachine",
+      "details": "lg"
+    },
+    {
+      "id": 3,
+      "name": "Dishwasher",
+      "power_cons": "1200W",
+      "imgSrc": "dishWasher",
+      "details": "samsung"
+    },
+    {
+      "id": 4,
+      "name": "Vacuum Cleaner",
+      "power_cons": "1500W",
+      "imgSrc": "vacuumCleaner",
+      "details": "HM"
+    },
+    {
+      "id": 1,
+      "name": "Tesla",
+      "departure": "07:35",
+      "arrival": "20:34",
+      "miniBaterry": "30",
+      "imgSrc": "electricVehicle"
+    },
+    {
+      "id": 12,
+      "name": "Laptop",
+      "imgSrc": "welcome-home",
+      "details": "Asus",
+      "consumption": "200"
+    },
+    {
+      "action": "deleteAppliances",
+      "which": "Air Coinditionator",
+      "id": 13
+    },
+    {
+      "action": "deleteAppliances",
+      "which": "Washing machine",
+      "id": 14
+    }
+  ],
+  "graphSelected": {
+    "nameDevice": "Electric vehicle"
+  },
+  "consumption-appli": {
+    "labelsWashingMachine": [
+      "16:00",
+      "17:00",
+      "18:00",
+      "19:00",
+      "20:00",
+      "21:00",
+      "22:00",
+      "23:00"
+    ],
+    "dataWashingMachine": [
+      0,
+      0,
+      0,
+      500,
+      500,
+      0,
+      0,
+      0
+    ],
+    "labelsDishwasher": [
+      "18:00",
+      "18:30",
+      "19:00",
+      "19:30",
+      "20:00",
+      "20:30",
+      "21:00",
+      "21:30"
+    ],
+    "dataDishwasher": [
+      0,
+      0,
+      0,
+      1200,
+      1200,
+      0,
+      0,
+      0
+    ],
+    "labelsEV": [
+      "1:00am",
+      "2:00am",
+      "3:00am",
+      "4:00am",
+      "5:00am",
+      "6:00am",
+      "7:00am"
+    ],
+    "dataEV": [
+      0,
+      0,
+      2000,
+      2000,
+      2000,
+      0,
+      0
+    ],
+    "labelsDefault": [
+      "8:00am",
+      "10:00am",
+      "12:00pm",
+      "14:00pm",
+      "16:00pm",
+      "18:00pm",
+      "20:00pm"
+    ],
+    "dataDefault": [
+      500,
+      500,
+      500,
+      500,
+      500,
+      500,
+      500
+    ]
+  },
+  "changeScheduling": {
+    "listDevices": [
+      "Washing machine",
+      "Dishwasher",
+      "Vacuum cleaner"
+    ]
+  },
+  "changeScheduling2": {
+    "which": "Washing machine",
+    "when": "02:52"
+  },
+  "communityprosumers": [
+    {
+      "name": "Franceso",
+      "interactions": 1,
+      "tot_energy_sold": 575,
+      "tot_energy_bought": 485,
+      "mean_price_sold": 30,
+      "mean_price_bought": 50
+    },
+    {
+      "name": "Luisa",
+      "interactions": 1,
+      "tot_energy_sold": 675,
+      "tot_energy_bought": 522,
+      "mean_price_sold": 40,
+      "mean_price_bought": 70
+    },
+    {
+      "name": "Giulia",
+      "interactions": 1,
+      "tot_energy_sold": 775,
+      "tot_energy_bought": 120,
+      "mean_price_sold": 50,
+      "mean_price_bought": 80
+    }
+  ],
+  "registration2": {
+    "name": "Federico",
+    "Tin_max": "25",
+    "Tin_min": "18",
+    "Tewh_max": "30",
+    "Tewh_min": "21",
+    "Cess_thresh_high": "30",
+    "Cess_thresh_low": "40",
+    "Time_departure": "08:15",
+    "Cpev_thresh_high": "70",
+    "Cpev_thresh_low": "30"
+  },
+  "registration": {
+    "family_name": {
+      "family_name": "BRUNO7"
+    },
+    "EV": {
+      "Time_departure": "15:05",
+      "Cpev_thresh_high": "46",
+      "Cpev_thresh_low": "46"
+    },
+    "setpoints": {
+      "Tin_max": "6",
+      "Tin_min": "6",
+      "Tewh_max": "6",
+      "Tewh_min": "6"
+    },
+    "home_batteries": {
+      "Cess_thresh_high": "46",
+      "Cess_thresh_low": "46"
+    },
+    "applianceData": [
+      {
+        "name": "none",
+        "consumption": "",
+        "running_len": ""
+      },
+      {
+        "name": "dishwasher",
+        "consumption": "",
+        "running_len": ""
+      },
+      {
+        "name": "vacuum_cleaner",
+        "consumption": "",
+        "running_len": ""
+      },
+      {
+        "name": "none",
+        "consumption": "",
+        "running_len": ""
+      }
+    ]
+  },
+  "summary": {
+    "labels": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "data": [
+      9.4,
+      9.5,
+      9,
+      9.4,
+      9.6,
+      10.5,
+      11.5
+    ],
+    "mean": "9.6",
+    "max": "11.5",
+    "min": "10.2"
+  },
+  "plots": {
+    "labels": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "data": [
+      9.4,
+      9.5,
+      9,
+      9.4,
+      9.6,
+      10.5,
+      11.5
+    ],
+    "min": "12",
+    "max": "18",
+    "mean": "15"
+  },
+  "settings": {
+    "action": "addAppliances",
+    "name": "Diswasher",
+    "consumption": "",
+    "running_length": ""
+  }
+}

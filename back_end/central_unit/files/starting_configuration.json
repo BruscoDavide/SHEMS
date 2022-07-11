@@ -1,0 +1,20 @@
+{
+    "database_name": "SHEMS_database_local",
+    "database_ip": "localhost",
+    "mqtt_port": 1883,
+    "mqtt_broker": "broker.hivemq.com",
+    "waterWithdrawn_topic":"waterWithdrawn_topic",
+    "carStation_topic": "carStation_topic",
+    "smartMeter_topic":"smartMeter_topic",
+    "home_city":"Turin",
+    "country_code":380,
+    "API_KEY":"165605b60d026027b1e5d38b89469113",
+    "BASE_URL2": "https://api.openweathermap.org/data/2.5/forecast?",
+    "time_granularity":15,
+    "commands_path":"./files/GUI_thread_commands.json",
+    "data_path":"./files/GUI_thread_data.json",
+    "push_path": "./files/push_notification.json",
+    "webserver_data_path":"C:/Users/davide.brusco/Documents/Coding/SHEMS/SHEMS_project/SHEMS_venv/SHEMS_project/central_unit/files/GUI_thread_data.json",
+    "webserver_commands_path":"C:/Users/davide.brusco/Documents/Coding/SHEMS/SHEMS_project/SHEMS_venv/SHEMS_project/central_unit/files/GUI_thread_commands.json",
+    "websocket_topic": "websocket_topic"
+}

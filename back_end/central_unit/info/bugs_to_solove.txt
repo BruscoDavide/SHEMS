@@ -1,0 +1,9 @@
+davide:
+- change scheduling --> da vedere versione codice
+- addaplinaces
+- deteleapplliances
+
+alejo:
+- the app have to return the message provided by the http response, 
+- (connection again to websocket) --> just presence not testing
+- (have we got control about the data that are inserted by the user) last point
